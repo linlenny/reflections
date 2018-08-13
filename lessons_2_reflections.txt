@@ -1,0 +1,11 @@
+{What happens when you initialize a repository? Why do you need to do it?}
+you add the git file to your directory. This is necessary to be able to have 
+git track all changes and make snapshots.
+
+{How is the staging area different from the working directory and the repository? 
+What value do you think it offers?}
+the staging area holds files that have been changed, but the changes have had 
+no effect. Once committed those changes then semi-permanently change the files
+in the depository and working directory. Advantage is that you can think about 
+the changes before implementing them.
+
