@@ -4,8 +4,30 @@ git track all changes and make snapshots.
 
 {How is the staging area different from the working directory and the repository? 
 What value do you think it offers?}
-the staging area holds files that have been changed, but the changes have had 
-no effect. Once committed those changes then semi-permanently change the files
-in the depository and working directory. Advantage is that you can think about 
-the changes before implementing them.
+the staging area holds files that have been changed, but the changes have had no effect. Once committed those changes then semi-permanently change the filesin the depository and working directory. Advantage is that you can think about the changes before implementing them.
+
+{How can you use the staging area to make sure you have one commit per logical change?}
+The staging area allows you to see the changes prior to the commit
+and allows you to insure it has the correct logical change prior
+to performing the commit.
+
+{How do the diagrams help you visualize the branch structure?}
+Diagrams help to see what branches are holding what commits, what changes have actually occurred
+to the master branch and what changes are temporary.
+
+{What is the result of merging two branches together? Why do we represent it in the diagram the way we do?}
+All of the commits (that are reachable and have a parent) of the braches that are merged are brought on to
+one branch. It is represented the way it is to show from where the single branch originated.
+
+{What are the pros and cons of Git’s automatic merging vs. always doing merges manually?}
+merging automatically gives you and easy way to find and fix conflicts.
+
+
+doing this for automatic login on github
+
+{Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?}
+for the same reason you don't want to push automatically. You need to be sure you want the changes,
+made on github to be a part of your remote repository.
+
+
 
